@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px solid black;
+    font-family: cursive;
+}
+body{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background-color: #9fc4f8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    color: whitesmoke;
+}
+.header h1{
+    width: 10em;
+}
+.cities{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.main_container{
+    margin: 0px auto;
+    width: 58em;
+    height: 50em;
+}
+.main_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.pick_Unit_Temp_container{
+    width:13em;
+    display: flex;
+    justify-content: space-between;
+}
+.hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.weather_container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container{
+    width: 22%;
+    height: 70%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+.weather_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.HighLowTemp{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cookies_container{
+    width: 900px;
+    height: 100px;
+    margin-left: 12px;
+    border: 3px solid black;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 50px;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+.cookie_text_container{
+    width: 70%;
+    height: 70px;
+}
+.cookies_container button{
+    background-color: #9fc4f8;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    width: 100px;
+    height: 30px;
+}
+.high{
+    display: flex;
+    color: red;
+}
+.low{
+    display: flex;
+    color: blue;
+}
+.container .HighLowTemp .high {
+    
+}
+.container .HighLowTemp .low {
+    
+}

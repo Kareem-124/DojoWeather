@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <h3 onclick="alert('loading weather report')">Burbank</h3>
+            <h3 onclick="alert('loading weather report')">Chicago</h3>
+            <h3 onclick="alert('loading weather report')">Dallas</h3>
+        </div>
+    </header>
+
+    <main class="main_container">
+        <div class="main_title">
+            <h2>San Jose</h2>
+            <div class="pick_Unit_Temp_container">
+                <h4>Show temperature in </h4>
+                <select name="unit" onchange="picUnit(this)">
+                    <option selected="selected">&#8451;</option>
+                    <option>&#8457;</option>
+                </select>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="weather_container">
+            <div class="today container">
+                <h2>Today</h2>
+                <div class="circle">
+                    <img src="some_rain.png" alt="some_rain" class="weather_img">
+                </div>
+                <h3>some rain</h3>
+                <div class="HighLowTemp">
+                    <div class="high"><h3>24</h3><span>&#176;</span></div>
+                    <div class="low"><h3>18</h3><span>&#176;</span></div>
+                </div>
+            </div>
+            <div class="tomorrow container">
+                <h2>Tomorrow</h2>
+                <div class="circle">
+                    <img src="some_sun.png" alt="some_sun" class="weather_img">
+                </div>
+                <h3>some sun</h3>
+                <div class="HighLowTemp">
+                    <div class="high"><h3>27</h3><span>&#176;</span></div>
+                    <div class="low"><h3>19</h3><span>&#176;</span></div>
+                </div>
+            </div>
+            <div class="friday container">
+                <h2>Friday</h2>
+                <div class="circle">
+                    <img src="some_clouds.png" alt="some_clouds" class="weather_img">
+                </div>
+                <h3>some clouds</h3>
+                <div class="HighLowTemp">
+                    <div class="high"><h3>21</h3><span>&#176;</span></div>
+                    <div class="low"><h3>16</h3><span>&#176;</span></div>
+                </div>
+            </div>
+            <div class="saturday container">
+                <h2>Saturday</h2>
+                <div class="circle">
+                    <img src="some_sun.png" alt="some_sun" class="weather_img">
+                </div>
+                <h3>some sun</h3>
+                <div class="HighLowTemp">
+                    <div class="high"><h3>26</h3><span>&#176;</span></div>
+                    <div class="low"><h3>21</h3><span>&#176;</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="cookies_container">
+            <img src="cookie.png" alt="cookie_icon">
+            <div class="cookie_text_container">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="accept()">I Accept</button>
+        </div> 
+    </main>
+</body>
+<script src="scipt.js"></script>
+</html>
