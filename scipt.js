@@ -1,9 +1,7 @@
 function picUnit(element){
 
 var symbol = element.value;
-console.log(Math.round(0.9));
-console.log(Math.round(69.80000000000001));
-console.log(Math.round(0.9));
+
 if (symbol != '℃'){
     var array=document.querySelectorAll(".container .HighLowTemp .high h3");
     for(var i=0; i<array.length ; i++){
